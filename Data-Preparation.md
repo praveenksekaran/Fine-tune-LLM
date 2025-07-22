@@ -1,24 +1,5 @@
 # Data Preparation for LLMs
 
-## Recap: Fine-Tuning
-
-**Start with a Pre-trained model:**
-
-- Pretrained models are large language models (LLMs) that have been trained on vast amounts of general data.
-- These models can be further specialized for specific tasks through fine-tuning.
-
-**Fine-tuning teaches LLM to understand new patterns in data:**
-
-- Fine-tuning adapts the pretrained model to specific domains or tasks.
-- It allows the model to learn task-specific vocabulary, context, and patterns.
-- This process enhances the model's performance on targeted applications.
-
-**Data importance in fine-tuning:**
-
-- While architecture and training process are crucial, data quality and preparation are paramount.
-- High-quality, task-specific data is essential for effective fine-tuning.
-- The data should represent the intended use case and cover edge cases as much as possible.
-
 ## Types of Datasets
 
 **1️⃣ Instruction-Following (SFT) Datasets**
@@ -642,7 +623,7 @@ for i, sample in enumerate(data):
     if not sample["output"]:
         print(f"Sample {i} has empty output!")
 ```
-
+Also try llm_judge.ipynb, sometimes both
 ---
 
 ### 🔁 Step 7: Iterate
@@ -661,6 +642,8 @@ for i, sample in enumerate(data):
 ✅ Augments data
 
 All with a **single script** you can drop into your workflow.
+
+**Also try augmentoolkit **
 
 ---
 
