@@ -86,7 +86,8 @@ Think of fine-tuning like **training a chef** to cook a specific dish (say, Inst
 
 This controls **how fast the model updates** its internal understanding during training.
 
-![image.png](image.png)
+<img width="1436" height="431" alt="image" src="https://github.com/user-attachments/assets/3376aac7-9ac7-4a05-9465-d715f4eb50dc" />
+
 
 ### In simple terms:
 
