@@ -25,12 +25,12 @@ open instruct....yaml file.
 **Context Length**
 <img width="627" height="103" alt="image" src="https://github.com/user-attachments/assets/68bb60d4-4646-45bf-827f-6e7e46da7fd9" />
 
-**Lora **
+**Lora**
 Keep them standard. or can be reduced or increased.
 you can chnage type to QLora and change settings 
 <img width="598" height="201" alt="image" src="https://github.com/user-attachments/assets/e9695b56-f1ef-4efd-94df-17544d568284" />
 
-** Monitoring ML tools**
+**Monitoring ML tools**
 ML training tools like Logs, GPU memory usage. Not must have. 
 No chnages needs. Not must have. 
 <img width="483" height="103" alt="image" src="https://github.com/user-attachments/assets/b271b10c-8230-4d91-bfbb-b8614988c492" />
@@ -43,9 +43,19 @@ Keep it to default or chnage only required.
 Deepspeed: needs a diff package. Makes training faster and optimized. in trial state
 <img width="494" height="242" alt="image" src="https://github.com/user-attachments/assets/3591a3f2-dff8-45b7-8d8b-73ffe9f0c7e7" />
 
+---
 #### Step 3:
 Run the commands as provided in https://docs.axolotl.ai/docs/getting-started.html
 The output should look like https://colab.research.google.com/drive/1Xu0BrCB7IShwSWKVcfAfhehwjDrDMH5m
+
+---
+#### Step 4:
+Understanding the output:
+Loss: Loss functions. 
+Learning rate:
+Epoch 
+
+<img width="1335" height="423" alt="image" src="https://github.com/user-attachments/assets/16fdceca-e1c3-4920-af0c-1c6f30d406c1" />
 
 
 
