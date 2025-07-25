@@ -1,4 +1,6 @@
-# using Axolotl 
+# using Axolotl
+
+in this example we will train LoRA. i.e. take a percentage of the base model retrain it and add a layer on it.  
 
 ---
 #### Step 1:  
@@ -51,11 +53,29 @@ The output should look like https://colab.research.google.com/drive/1Xu0BrCB7ISh
 ---
 #### Step 4:
 Understanding the output:
-Loss: Loss functions. 
-Learning rate:
-Epoch 
+- Tokenizer
+- Dataloading 
+- Loss: Loss functions. How much new your model is learning. how much lose the answers as from truth, ie how much the model already know. If from beggning these values are low, then the model already knows what its learning. If loss value is big and during trainings its recuding gradually, them your model is learning & hyperparameters are well tuned. Its common to see values fluctuating. but when you see large fluciations after a while in training, your learning rate is high.  
+its value might not go to zero.
+if there is no loss at all, then training value is incorrect or hyperparameters are incorrect. 
+- Learning rate:
+- Epoch
+
+Success of Eval is not very dependable, as the sample for evel itself is very low 2-5%.
 
 <img width="1335" height="423" alt="image" src="https://github.com/user-attachments/assets/16fdceca-e1c3-4920-af0c-1c6f30d406c1" />
+
+#### Step 5:
+Run merge LoRA weights commands. 
+
+#### Step 6:
+Optional to publish on Hugging face.
+
+# Llamafactory
+its a GUI based tool for training, eval. Requires Windows machine but slowing moving to Linux.  
+[github](https://github.com/hiyouga/LLaMA-Factory)
+
+
 
 
 
