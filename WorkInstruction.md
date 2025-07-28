@@ -97,9 +97,9 @@ More than one model can be run on the same device. Configure def setup.
 
 # other inference providers
 - AWS Sagemaker
-  [Deploy models for real-time inference](https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints-deploy-models.html)
-  [deploy-llama2-7b-recording.ipynb](https://github.com/aws-samples/sagemaker-genai-hosting-examples/blob/main/Llama2/Llama2-7b/LMI/deploy-llama2-7b-recording.ipynb)
-  [Youtube](https://www.youtube.com/watch?v=UQWjKQe97Ew)
+  - [Deploy models for real-time inference](https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints-deploy-models.html)
+  - [deploy-llama2-7b-recording.ipynb](https://github.com/aws-samples/sagemaker-genai-hosting-examples/blob/main/Llama2/Llama2-7b/LMI/deploy-llama2-7b-recording.ipynb)
+  - [Youtube](https://www.youtube.com/watch?v=UQWjKQe97Ew)
 - replicate.ai
 - modal.com
 - fal.ai
