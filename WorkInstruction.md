@@ -75,7 +75,7 @@ Optional to publish on Hugging face.
 its a GUI based tool for training, eval. Requires Windows machine but slowing moving to Linux.  
 [github](https://github.com/hiyouga/LLaMA-Factory)
 
-#Other GPU providers
+# Other GPU providers
 - runpod
 - lambda.ai
 - vast.ai
