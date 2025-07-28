@@ -75,6 +75,29 @@ Optional to publish on Hugging face.
 its a GUI based tool for training, eval. Requires Windows machine but slowing moving to Linux.  
 [github](https://github.com/hiyouga/LLaMA-Factory)
 
+# Run inference on **Replicate**
+- Replicate has inbuild queue
+- it has in build webhook
+- cog.run is the container 
+
+Follow the instructions 
+[Replicate push-a-transformers-model](https://replicate.com/docs/guides/push-a-transformers-model)
+
+cog.yaml - Configuration file 
+predict.py - def setup: Change T5ForConditionalGeneration as suggested in the guide 
+                        change Tokenizer to specific or leave it auto tokenizer
+             def predict: max_length can be changed or default to 50 
+More than one model can be run on the same device. Configure def setup.
+
+# other inference providers
+- AWS Sagemaker
+- replicate.ai
+- modal.com
+- fal.ai
+            
+
+
+
 
 
 
