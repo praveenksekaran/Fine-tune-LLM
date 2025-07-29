@@ -248,6 +248,9 @@ Back to the **developer**:
 
 This is **continuous evaluation** – not a one-time task.
 
+## LLM as Judge
+[Original article](https://huggingface.co/learn/cookbook/en/llm_judge)
+
 ### Automatic Evaluation Script: LLM as a Judge (Simplified)
 
 ```python
