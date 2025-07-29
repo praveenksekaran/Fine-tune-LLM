@@ -376,3 +376,16 @@ Creativity: 5
 Alignment: 4 
 Tone: 5 
 CTA: 5 |
+
+
+# Other Eval framework 
+- Deep Eval
+  Open Source LLM Evaluation framework
+  [deepeval/platform](https://deepeval.com/)
+
+- Open ai Eval
+  Open ai open source project
+  [Openai eval/git](https://github.com/openai/evals)
+
+- argilla-io - Distilable
+  [argilla-io](https://github.com/argilla-io/distilabel)
