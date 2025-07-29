@@ -47,7 +47,8 @@ In traditional ML:
 - Evaluation = clear metrics (accuracy, score, etc.)
 - Example: “Is this spam or not?” → Binary → Easy to score
 
-![image.png](image.png)
+<img width="800" height="356" alt="image" src="https://github.com/user-attachments/assets/9fbe3a5d-91e7-4478-95ec-a69b5f72f83b" />
+
 
 📌 **Contrast that with LLMs:**
 
@@ -85,8 +86,7 @@ In traditional ML:
 📌 Imagine you ask 3 people to score your script outputs from 1–5. One loves dramatic captions. Another prefers punchy one-liners. Their 5s and 2s won’t match.
 
 ## Evaluation Methods
-
-![image.png](image%201.png)
+<img width="1912" height="874" alt="image 1" src="https://github.com/user-attachments/assets/b38a373f-141b-4612-b33f-77e3dfa728ba" />
 
 ### 1. Public Benchmarks
 
@@ -164,7 +164,7 @@ Still the **gold standard**, especially for creative tasks.
 
 ## Recipe for Evaluating LLMs
 
-![image.png](image%202.png)
+<img width="883" height="357" alt="image 2" src="https://github.com/user-attachments/assets/193a6337-bb56-49e5-96d9-bf4df7fe881d" />
 
 (Human-verified LLM Evaluation)
 
